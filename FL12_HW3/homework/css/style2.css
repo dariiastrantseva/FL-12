@@ -1,10 +1,10 @@
 body {
   margin: 0px;
-  background-color: #fff; }
+  background-color: #21232e; }
   body header {
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("../img/m-h-day.jpg");
+    background-image: url("../img/m-h-night.jpg");
     background-position: center;
     border: transparent 0px solid;
     border-bottom-right-radius: 40%; }
@@ -15,7 +15,7 @@ body {
       padding-left: 135px; }
       body header .header-wrap .landing-logo {
         padding-top: 15px;
-        color: #21232e;
+        color: #fff;
         padding-bottom: 40px; }
         body header .header-wrap .landing-logo img {
           float: left;
@@ -32,12 +32,12 @@ body {
             font-size: 0.5em;
             display: block;
             font-weight: normal;
-            font-family: Hind, sans-serif; }
+            font-family: Fresca, sans-serif; }
       body header .header-wrap .header_heading {
         margin: 0px;
         width: 30%;
         font-size: 46px;
-        color: #21232e;
+        color: #fff;
         font-weight: bold;
         font-family: Source Sans Pro, sans-serif;
         padding-bottom: 35px;
@@ -48,19 +48,19 @@ body {
           height: 35px;
           line-height: 45%;
           content: "awesome";
-          background-color: #14a0c7;
+          background-color: #ff4e33;
           position: relative;
           bottom: 38px; }
       body header .header-wrap .header_text {
         font-size: 12px;
         margin: 0px;
         padding-right: 50%;
-        color: #21232e;
+        color: #fff;
         white-space: pre-line;
         padding-bottom: 45px;
-        font-family: Hind, sans-serif; }
+        font-family: Fresca, sans-serif; }
       body header .header-wrap .header_button {
-        background-color: #699900;
+        background-color: #e3ac00;
         border: none;
         color: #fff;
         font-weight: bold;
@@ -85,13 +85,13 @@ body {
       font-size: 25px;
       font-weight: bold;
       font-family: Source Sans Pro, sans-serif;
-      color: #21232e; }
+      color: #fff; }
       body main .section_text:after {
         display: inline-block;
         height: 30px;
         line-height: 140%;
         content: "adventure";
-        background-color: #14a0c7;
+        background-color: #ff4e33;
         position: relative;
         right: 127px; }
     body main .section_card_wrap {
@@ -99,7 +99,7 @@ body {
       flex-direction: column; }
       body main .section_card_wrap .section_card {
         width: 100%;
-        background-color: #21232e;
+        background-color: #3b3f50;
         padding: 12px;
         border-radius: 4px;
         margin-bottom: 17px; }
@@ -121,14 +121,14 @@ body {
             padding-top: 25px; }
           body main .section_card_wrap .section_card .section_card_right_container .section_card_text {
             color: #b6bece;
-            font-family: Hind, sans-serif; }
+            font-family: Fresca, sans-serif; }
           body main .section_card_wrap .section_card .section_card_right_container .section_link {
             padding-top: 8px;
             display: block;
             text-align: center;
             color: #b6bece; }
   body .section_banner {
-    background: linear-gradient(to right, #699900, #3260c3);
+    background: linear-gradient(to right, #e3ac00, #922b53);
     border-radius: 4px;
     position: relative;
     top: 100px;
@@ -147,11 +147,11 @@ body {
         letter-spacing: 1px;
         font-weight: bold;
         font-family: Source Sans Pro, sans-serif;
-        color: #21232e; }
+        color: #fff; }
         body .section_banner .section_banner_text_wrap .section_banner_heading:after {
           display: inline-block;
           content: "start";
-          background-color: #14a0c7;
+          background-color: #ff4e33;
           position: relative;
           bottom: 23px;
           left: 87px; }
@@ -163,7 +163,7 @@ body {
     body .section_banner .section_banner_button {
       margin-top: 36px;
       float: right;
-      background-color: #699900;
+      background-color: #e3ac00;
       border: none;
       color: #fff;
       font-weight: bold;
@@ -173,7 +173,7 @@ body {
       font-size: 11px;
       font-family: Source Sans Pro, sans-serif; }
   body footer {
-    background-color: #21232e;
+    background-color: #3b3f50;
     padding-top: 6%;
     padding-bottom: 2%;
     width: 100%; }
@@ -200,16 +200,16 @@ body {
           font-size: 0.5em;
           display: block;
           font-weight: normal;
-          font-family: Hind, sans-serif; }
+          font-family: Fresca, sans-serif; }
     body footer .footer_text {
       margin-top: 0px;
-      font-family: Hind, sans-serif;
+      font-family: Fresca, sans-serif;
       width: 19%;
       font-size: 12px;
       color: #b6bece; }
     body footer .footer-cr {
       padding-top: 17px;
-      font-family: Hind, sans-serif;
+      font-family: Fresca, sans-serif;
       width: 19%;
       font-size: 12px;
       color: #b6bece;
