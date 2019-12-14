@@ -1,0 +1,218 @@
+body {
+  margin: 0px;
+  background-color: #fff; }
+  body header {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/m-h-day.jpg");
+    background-position: center;
+    border: transparent 0px solid;
+    border-bottom-right-radius: 40%; }
+    body header .header-wrap {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 115px;
+      padding-left: 135px; }
+      body header .header-wrap .landing-logo {
+        padding-top: 15px;
+        color: #21232e;
+        padding-bottom: 40px; }
+        body header .header-wrap .landing-logo img {
+          float: left;
+          padding-right: 0.5em;
+          height: 28px; }
+        body header .header-wrap .landing-logo p {
+          line-height: 15px;
+          margin-top: 0px;
+          font-size: 1em;
+          font-weight: 600;
+          font-family: Source Sans Pro, sans-serif; }
+          body header .header-wrap .landing-logo p span {
+            padding-left: 5em;
+            font-size: 0.5em;
+            display: block;
+            font-weight: normal;
+            font-family: Hind, sans-serif; }
+      body header .header-wrap .header_heading {
+        margin: 0px;
+        width: 30%;
+        font-size: 46px;
+        color: #21232e;
+        font-weight: bold;
+        font-family: Source Sans Pro, sans-serif;
+        padding-bottom: 35px;
+        letter-spacing: 2px;
+        line-height: 38px; }
+        body header .header-wrap .header_heading:after {
+          display: inline-block;
+          height: 35px;
+          line-height: 45%;
+          content: "awesome";
+          background-color: #14a0c7;
+          position: relative;
+          bottom: 38px; }
+      body header .header-wrap .header_text {
+        font-size: 12px;
+        margin: 0px;
+        padding-right: 50%;
+        color: #21232e;
+        white-space: pre-line;
+        padding-bottom: 45px;
+        font-family: Hind, sans-serif; }
+      body header .header-wrap .header_button {
+        background-color: #699900;
+        border: none;
+        color: #fff;
+        font-weight: bold;
+        border-radius: 3px;
+        width: 100px;
+        height: 34px;
+        font-size: 11px;
+        font-family: Source Sans Pro, sans-serif;
+        margin-right: 100px; }
+      body header .header-wrap .login:link {
+        color: #fff;
+        font-family: Source Sans Pro, sans-serif; }
+      body header .header-wrap .login:visited {
+        color: #fff;
+        font-family: Source Sans Pro, sans-serif; }
+  body main {
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 4%; }
+    body main .section_text {
+      text-align: center;
+      font-size: 25px;
+      font-weight: bold;
+      font-family: Source Sans Pro, sans-serif;
+      color: #21232e; }
+      body main .section_text:after {
+        display: inline-block;
+        height: 30px;
+        line-height: 140%;
+        content: "adventure";
+        background-color: #14a0c7;
+        position: relative;
+        right: 127px; }
+    body main .section_card_wrap {
+      display: flex;
+      flex-direction: column; }
+      body main .section_card_wrap .section_card {
+        width: 100%;
+        background-color: #21232e;
+        padding: 12px;
+        border-radius: 4px;
+        margin-bottom: 17px; }
+        body main .section_card_wrap .section_card .section_card_img {
+          width: 38%;
+          border-radius: 4px;
+          float: left;
+          margin-right: 8%; }
+        body main .section_card_wrap .section_card .section_card_right_container {
+          display: flex;
+          flex-direction: column;
+          width: 47%;
+          font-family: Source Sans Pro, sans-serif;
+          font-size: 13px; }
+          body main .section_card_wrap .section_card .section_card_right_container .section_card_heading {
+            text-align: center;
+            color: #fff;
+            font-weight: bold;
+            padding-top: 25px; }
+          body main .section_card_wrap .section_card .section_card_right_container .section_card_text {
+            color: #b6bece;
+            font-family: Hind, sans-serif; }
+          body main .section_card_wrap .section_card .section_card_right_container .section_link {
+            padding-top: 8px;
+            display: block;
+            text-align: center;
+            color: #b6bece; }
+  body .section_banner {
+    background: linear-gradient(to right, #699900, #3260c3);
+    border-radius: 4px;
+    position: relative;
+    top: 100px;
+    right: 34px;
+    width: 785px;
+    height: 80px;
+    padding-right: 15%;
+    padding-bottom: 25px; }
+    body .section_banner .section_banner_text_wrap {
+      padding-left: 14%;
+      width: 300px;
+      float: left; }
+      body .section_banner .section_banner_text_wrap .section_banner_heading {
+        margin-bottom: 0px;
+        font-size: 1.2em;
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-family: Source Sans Pro, sans-serif;
+        color: #21232e; }
+        body .section_banner .section_banner_text_wrap .section_banner_heading:after {
+          display: inline-block;
+          content: "start";
+          background-color: #14a0c7;
+          position: relative;
+          bottom: 23px;
+          left: 87px; }
+      body .section_banner .section_banner_text_wrap .section_banner_text {
+        margin: 0px;
+        font-family: Source Sans Pro, sans-serif;
+        color: #b6bece;
+        font-size: 12px; }
+    body .section_banner .section_banner_button {
+      margin-top: 36px;
+      float: right;
+      background-color: #699900;
+      border: none;
+      color: #fff;
+      font-weight: bold;
+      border-radius: 3px;
+      width: 100px;
+      height: 34px;
+      font-size: 11px;
+      font-family: Source Sans Pro, sans-serif; }
+  body footer {
+    background-color: #21232e;
+    padding-top: 6%;
+    padding-bottom: 2%;
+    width: 100%; }
+    body footer .footer-wrap {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+    body footer .landing-logo {
+      color: #b6bece;
+      width: 10%;
+      padding-left: 10%; }
+      body footer .landing-logo img {
+        float: left;
+        padding-right: 0.5em;
+        height: 28px; }
+      body footer .landing-logo p {
+        line-height: 15px;
+        margin-top: 0px;
+        font-size: 1em;
+        font-weight: 600;
+        font-family: Source Sans Pro, sans-serif; }
+        body footer .landing-logo p span {
+          padding-left: 5em;
+          font-size: 0.5em;
+          display: block;
+          font-weight: normal;
+          font-family: Hind, sans-serif; }
+    body footer .footer_text {
+      margin-top: 0px;
+      font-family: Hind, sans-serif;
+      width: 19%;
+      font-size: 12px;
+      color: #b6bece; }
+    body footer .footer-cr {
+      padding-top: 17px;
+      font-family: Hind, sans-serif;
+      width: 19%;
+      font-size: 12px;
+      color: #b6bece;
+      padding-left: 50px; }
+
+/*# sourceMappingURL=style1.css.map */
