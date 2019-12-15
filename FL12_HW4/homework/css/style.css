@@ -89,7 +89,10 @@ section {
     margin-top: 2.5em;
     margin-bottom: 1.5em;
 }
-.img{width: 100%;}
+
+.img {
+    width: 100%;
+}
 
 .box {
     padding-bottom: 3.5em;
@@ -103,23 +106,19 @@ section {
 }
 
 .author-image {
-	width: 3.5em;
+    width: 3.5em;
     border-radius: 50%;
     padding-right: 7px;
 }
-
 
 .author {
     display: flex;
     flex-direction: row;
 }
 
-
 .info {
     padding-right: 20px;
 }
-
-
 
 .blogText {
     line-height: 28px;
@@ -144,10 +143,6 @@ footer {
 .footer-lab>p {
     color: #777;
 }
-
-/*.footer-text {
-    line-height: 28px;
-}*/
 
 .spase {
     width: 22%;
