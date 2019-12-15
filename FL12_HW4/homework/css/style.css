@@ -1,0 +1,154 @@
+body {
+    margin: 0px;
+}
+
+.hat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 12%;
+    padding-left: 12%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    position: fixed;
+    top: 0;
+    width: 76%;
+    background-color: #ffffff;
+}
+
+.hat>h3 {
+    margin: 0%;
+    color: #777;
+
+}
+
+.main-nav {
+    word-spacing: 2em;
+    text-decoration: none;
+    font-size: small;
+    padding-top: 0.3em;
+}
+
+a:link {
+    text-decoration: none;
+    color: #777;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #777;
+}
+
+a:hover {
+    color: #bfba55;
+    text-decoration: none;
+}
+
+a:active {
+    color: #bfba55;
+    text-decoration: none;
+}
+
+
+.header {
+    width: 100%;
+    text-align: center;
+    background-image: url("../img/home-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 18%;
+    padding-top: 18%;
+}
+
+.header>h1 {
+    color: #ffffff;
+    font-size: 400%;
+    margin-bottom: 0%;
+}
+
+.header>h6 {
+    color: #bfba55;
+    margin-top: 0%;
+}
+
+.buttonstyle {
+    padding-top: 10px;
+    padding-bottom: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 15%/50%;
+    border-width: 0.5px;
+    border-color: #777;
+    background-color: #fff;
+    color: #777;
+}
+
+section {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2.5em;
+    margin-bottom: 1.5em;
+}
+.img{width: 100%;}
+
+.box {
+    padding-bottom: 3.5em;
+    padding-top: 5.5em;
+    color: #777;
+}
+
+.blogH,
+.author {
+    color: #000;
+}
+
+.author-image {
+	width: 3.5em;
+    border-radius: 50%;
+    padding-right: 7px;
+}
+
+
+.author {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.info {
+    padding-right: 20px;
+}
+
+
+
+.blogText {
+    line-height: 28px;
+}
+
+footer {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    background-color: #000;
+    padding-top: 3%;
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-bottom: 3%;
+    color: #ffffff;
+}
+
+.footer-lab {
+    max-width: 430px;
+}
+
+.footer-lab>p {
+    color: #777;
+}
+
+.footer-text {
+    line-height: 28px;
+}
+
+.spase {
+    width: 22%;
+}
